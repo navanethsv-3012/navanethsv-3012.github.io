@@ -39,7 +39,10 @@ input.addEventListener("keypress", function(e) {
       content.innerHTML += `<p>->1. 🍔Food Mate</p><p style="margin-left: 25px;">Developed a food ordering system with structured data handling.</p>
                             <p style="margin-left: 25px;">Implemented user interaction and file management logic.</p>
                             <p>->2. 🏥Hostpital Mangement Using C</p><p class="indent">Built a system to record and manage patient details.</p>
-                            <p class="indent">Implemented fever detection logic and file storage.</p>`;
+                            <p class="indent">Implemented fever detection logic and file storage.</p>
+                            <p>3.🩺Patient Temperature Management System:</p>
+                            <p class="indent">Patient Temperature System in Python Tkinter for entering and storing patient temperatures.</p>
+                            <p class="indent">Detects fevers, sorts temperatures, and generates reports efficiently</p>`;
     }
     else if (command === "achievements") {
       content.innerHTML += `<p>->🥇 1st Place – Kanam’26 CodeRush Coding Competition</p>
@@ -61,4 +64,5 @@ input.addEventListener("keypress", function(e) {
     input.value = "";
     window.scrollTo(0, document.body.scrollHeight);
   }
+
 });
